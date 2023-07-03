@@ -1,0 +1,23 @@
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ecc71;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+  }
+  
+  .alert__message {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .alert {
+      width: 100%;
+      border-radius: 0;
+    }
+  }
+  

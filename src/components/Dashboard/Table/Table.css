@@ -1,0 +1,28 @@
+/* Table.css */
+.table {
+  max-width: 600px;
+  border-collapse: collapse;
+}
+
+.table__head th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.table__body .table__row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table__cell {
+  padding: 10px;
+}
+
+.table__row td:last-child {
+  text-align: right;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
